@@ -1,0 +1,6 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.06_Methods_Challenge\bin\Debug\0.06_Methods_Challenge.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.06_Methods_Challenge\bin\Debug\0.06_Methods_Challenge.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.06_Methods_Challenge\bin\Debug\0.06_Methods_Challenge.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.06_Methods_Challenge\obj\Debug\0.06_Methods_Challenge.csprojResolveAssemblyReference.cache
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.06_Methods_Challenge\obj\Debug\0.06_Methods_Challenge.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.06_Methods_Challenge\obj\Debug\0.06_Methods_Challenge.pdb
