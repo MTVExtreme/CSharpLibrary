@@ -1,0 +1,6 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.07_Constructors\bin\Debug\0.07_Constructors.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.07_Constructors\bin\Debug\0.07_Constructors.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.07_Constructors\bin\Debug\0.07_Constructors.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.07_Constructors\obj\Debug\0.07_Constructors.csprojResolveAssemblyReference.cache
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.07_Constructors\obj\Debug\0.07_Constructors.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.07_Constructors\obj\Debug\0.07_Constructors.pdb
