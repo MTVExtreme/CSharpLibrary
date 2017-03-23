@@ -1,0 +1,6 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\Class_Object_Creation\bin\Debug\Class_Object_Creation.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\Class_Object_Creation\bin\Debug\Class_Object_Creation.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\Class_Object_Creation\bin\Debug\Class_Object_Creation.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\Class_Object_Creation\obj\Debug\Class_Object_Creation.csprojResolveAssemblyReference.cache
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\Class_Object_Creation\obj\Debug\Class_Object_Creation.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\Class_Object_Creation\obj\Debug\Class_Object_Creation.pdb

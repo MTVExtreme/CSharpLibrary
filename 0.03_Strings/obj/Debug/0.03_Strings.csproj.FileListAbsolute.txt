@@ -1,0 +1,5 @@
+c:\users\mtv19\documents\visual studio 2017\Projects\CSharpLibary\0.03_Strings\bin\Debug\0.03_Strings.exe.config
+c:\users\mtv19\documents\visual studio 2017\Projects\CSharpLibary\0.03_Strings\bin\Debug\0.03_Strings.exe
+c:\users\mtv19\documents\visual studio 2017\Projects\CSharpLibary\0.03_Strings\bin\Debug\0.03_Strings.pdb
+c:\users\mtv19\documents\visual studio 2017\Projects\CSharpLibary\0.03_Strings\obj\Debug\0.03_Strings.exe
+c:\users\mtv19\documents\visual studio 2017\Projects\CSharpLibary\0.03_Strings\obj\Debug\0.03_Strings.pdb
