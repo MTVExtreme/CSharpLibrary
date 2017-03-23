@@ -26,17 +26,25 @@ namespace _0._08_Loops_ForLoops
 
             for (int i = 0; i < 10; i++)
             {
-                if(i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     Console.WriteLine("Even!");
                 }
                 else
-                    Console.WriteLine(10-i);
+                    Console.WriteLine(10 - i);
             }
+            int sum = 0;
+            for (int i = 0; i <= 10; i++)
+            {
+                sum = sum + i;
+
+            }
+            Console.WriteLine(sum);
 
 
 
-            Console.ReadLine();
+
+                Console.ReadLine();
 
         }
     }

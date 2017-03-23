@@ -1,0 +1,5 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoopProgram\bin\Debug\0.08_Loops_ForLoopProgram.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoopProgram\bin\Debug\0.08_Loops_ForLoopProgram.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoopProgram\bin\Debug\0.08_Loops_ForLoopProgram.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoopProgram\obj\Debug\0.08_Loops_ForLoopProgram.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoopProgram\obj\Debug\0.08_Loops_ForLoopProgram.pdb

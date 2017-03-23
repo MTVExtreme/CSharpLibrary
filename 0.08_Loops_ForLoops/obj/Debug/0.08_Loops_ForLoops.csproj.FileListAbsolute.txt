@@ -3,3 +3,4 @@ C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_For
 C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoops\bin\Debug\0.08_Loops_ForLoops.pdb
 C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoops\obj\Debug\0.08_Loops_ForLoops.exe
 C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoops\obj\Debug\0.08_Loops_ForLoops.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.08_Loops_ForLoops\obj\Debug\0.08_Loops_ForLoops.csprojResolveAssemblyReference.cache
