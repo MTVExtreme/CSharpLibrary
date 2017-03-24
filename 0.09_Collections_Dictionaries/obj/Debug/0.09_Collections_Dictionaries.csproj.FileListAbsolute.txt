@@ -1,0 +1,6 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.09_Collections_Dictionaries\bin\Debug\0.09_Collections_Dictionaries.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.09_Collections_Dictionaries\bin\Debug\0.09_Collections_Dictionaries.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.09_Collections_Dictionaries\bin\Debug\0.09_Collections_Dictionaries.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.09_Collections_Dictionaries\obj\Debug\0.09_Collections_Dictionaries.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.09_Collections_Dictionaries\obj\Debug\0.09_Collections_Dictionaries.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.09_Collections_Dictionaries\obj\Debug\0.09_Collections_Dictionaries.csprojResolveAssemblyReference.cache

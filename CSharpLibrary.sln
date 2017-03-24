@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.00_BasicConsoleGame", "0.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.09_Collections_ArrayOfObjects", "0.09_Collections_ArrayOfObjects\0.09_Collections_ArrayOfObjects.csproj", "{68CECE84-C742-447E-9385-FAAE5F3E50A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.09_Collections_Dictionaries", "0.09_Collections_Dictionaries\0.09_Collections_Dictionaries.csproj", "{B9DB9B10-BED8-42BB-AB51-8D14E06F7B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.09_Collections_Dictionaries_Challenge", "0.09_Collections_Dictionaries_Challenge\0.09_Collections_Dictionaries_Challenge.csproj", "{D020E60A-CDA2-46EF-9D7C-C698BA076E99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{68CECE84-C742-447E-9385-FAAE5F3E50A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68CECE84-C742-447E-9385-FAAE5F3E50A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68CECE84-C742-447E-9385-FAAE5F3E50A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DB9B10-BED8-42BB-AB51-8D14E06F7B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DB9B10-BED8-42BB-AB51-8D14E06F7B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DB9B10-BED8-42BB-AB51-8D14E06F7B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DB9B10-BED8-42BB-AB51-8D14E06F7B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D020E60A-CDA2-46EF-9D7C-C698BA076E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D020E60A-CDA2-46EF-9D7C-C698BA076E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D020E60A-CDA2-46EF-9D7C-C698BA076E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D020E60A-CDA2-46EF-9D7C-C698BA076E99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
