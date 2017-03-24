@@ -1,0 +1,6 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.10_Inheritance\bin\Debug\0.10_Inheritance.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.10_Inheritance\bin\Debug\0.10_Inheritance.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.10_Inheritance\bin\Debug\0.10_Inheritance.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.10_Inheritance\obj\Debug\0.10_Inheritance.csprojResolveAssemblyReference.cache
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.10_Inheritance\obj\Debug\0.10_Inheritance.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.10_Inheritance\obj\Debug\0.10_Inheritance.pdb

@@ -1,0 +1,5 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.11.AccessModifiers\bin\Debug\0.11.AccessModifiers.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.11.AccessModifiers\bin\Debug\0.11.AccessModifiers.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.11.AccessModifiers\bin\Debug\0.11.AccessModifiers.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.11.AccessModifiers\obj\Debug\0.11.AccessModifiers.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.11.AccessModifiers\obj\Debug\0.11.AccessModifiers.pdb
