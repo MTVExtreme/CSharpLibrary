@@ -1,0 +1,6 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.12_TestGame\bin\Debug\0.12_TestGame.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.12_TestGame\bin\Debug\0.12_TestGame.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.12_TestGame\bin\Debug\0.12_TestGame.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.12_TestGame\obj\Debug\0.12_ConsoleGame.csprojResolveAssemblyReference.cache
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.12_TestGame\obj\Debug\0.12_TestGame.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.12_TestGame\obj\Debug\0.12_TestGame.pdb
