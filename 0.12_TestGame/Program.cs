@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,15 +9,15 @@ namespace _0._12_TestGame
 {
     class Program
     {
-        public void Startup()
-        {
-            
-
-        }
-
+       
         static void Main(string[] args)
-        {
-            
+        { 
+
+            PlayerClass player1;
+
+            SpeechSynthesizer talkingConsole = new SpeechSynthesizer();
+            talkingConsole.Speak("Welcome to DURF");
+
 
             Console.WriteLine("Welcome to DURF (Deadly Underground Reference Fighting)");
             Console.WriteLine("What will the name of your Adventurer be?");
@@ -30,51 +31,41 @@ namespace _0._12_TestGame
                 "3: Ranger");
             int playerType = int.Parse(Console.ReadLine());
 
-            switch(playerType)
+        
+            if (playerType == 0)
             {
-                case 0:
-                    Ninja player1 = new Ninja(name, faction);
-                case 1:
-                    Mage player1 = new Mage(name, faction);
-
+                player1 = new Ninja(name, faction);
+            }
+            else if (playerType == 1)
+            {
+                player1 = new Mage(name, faction);
+            }
+            else if (playerType == 2)
+            {
+                player1 = new Paladin(name, faction);
+            }
+            else if (playerType == 3)
+            {
+                player1 = new Ranger(name, faction);
+            }
+            else
+            {
+                player1 = new PlayerClass(name, faction);
             }
 
-            PlayerClass player = new PlayerClass(name, faction);
-            player.Choosetype(playerType);
-
-            Console.WriteLine(player.ToString());
-
-            Enemy Quagga = new Enemy();
-            Quagga.Insult();
-            Console.ReadLine();
-        }
-
-        public CharacterType Choosetype(int t)
-        {
-            switch (t)
-            {
-                case 0:
-                    Console.WriteLine("You are a Ninja");
-                    return this.Type = CharacterType.Ninja;
-                case 1:
-                    Console.WriteLine("You are a Mage");
-                    return this.Type = CharacterType.Mage;
-                case 2:
-                    Console.WriteLine("You are a Paladin");
-                    return this.Type = CharacterType.Paladin;
-                case 3:
-                    Console.WriteLine("You are a Ranger");
-                    return this.Type = CharacterType.Ranger;
-                default:
-                    Console.WriteLine("You are a Human you pleb");
-                    return this.Type = CharacterType.Human;
-
-            }
-        }
+            //PlayerClass player = new PlayerClass(name, faction);
+            //player.Choosetype(playerType);
 
 
+            Console.WriteLine(player1.ToString());
 
+            RabidWolf Wolf = new RabidWolf();
+            Wolf.Insult();
+            Wolf.WolfAttack(player1);
+            Console.ReadLine();      
 
-
+    }
+        
+        
     }
 }

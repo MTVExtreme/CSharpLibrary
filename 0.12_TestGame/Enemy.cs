@@ -17,6 +17,7 @@ namespace _0._12_TestGame
         public int AtkPower1 { get; set; }
         public int AtkPower2 { get; set; }
         public int AtkPower3 { get; set; }
+        Random rnd = new Random();
 
 
 
@@ -24,10 +25,21 @@ namespace _0._12_TestGame
         public void Insult()
         {
             ArrayList insult = new ArrayList {"buck-o", "whimp", "jerk-wad", "window licker", "noob", "neeeerd", "baka" };
-            Random rnd = new Random();
+            
             int r = rnd.Next(0, insult.Count);
 
             Console.WriteLine("You're on the wrong side of the forest {0}", insult[r]);
+        }
+
+        public void Attack(PlayerClass player, Dictionary<string, int> dict, Object enemyName)
+        {
+            
+
+            var singleAttack = dict.ElementAt(rnd.Next(dict.Count));
+            int attackVal = singleAttack.Value;
+            string attackName = singleAttack.Key;
+
+            Console.WriteLine("Enemy Attacks {0} with {1} for {2} damage",player.Name, attackName, attackVal);
         }
     }
 }

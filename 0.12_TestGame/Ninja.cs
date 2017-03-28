@@ -12,13 +12,16 @@ namespace _0._12_TestGame
 
         public Ninja(string name, string faction) : base(name, faction)
         {
-            //this.Name = name;
-            //this.Faction = faction;
-            //this.Level = 1;
             this.Stamina = 25;
             this.HealthPoints = 85;
             this.Speed = 16;
+            this.Type = CharacterType.Ninja;
 
+        }
+
+        public override string ToString()
+        {
+            return $"The {this.Type} {this.Name} of {this.Faction} => Health Points: {this.HealthPoints} || Speed: {this.Speed} || Stamina: {this.Stamina}";
         }
     }
 }

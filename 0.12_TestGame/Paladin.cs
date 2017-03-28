@@ -18,7 +18,12 @@ namespace _0._12_TestGame
             this.Stamina = 40;
             this.HealthPoints = 160;
             this.Speed = 9;
+            this.Type = CharacterType.Paladin;
+        }
 
+        public override string ToString()
+        {
+            return $"The {this.Type} {this.Name} of {this.Faction} => Health Points: {this.HealthPoints} || Speed: {this.Speed} || Stamina: {this.Stamina}";
         }
     }
 }

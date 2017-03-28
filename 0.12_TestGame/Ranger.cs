@@ -18,7 +18,13 @@ namespace _0._12_TestGame
             this.Ammo = 12;
             this.HealthPoints = 100;
             this.Speed = 13;
+            this.Type = CharacterType.Ranger;
 
+        }
+
+        public override string ToString()
+        {
+            return $"The {this.Type} {this.Name} of {this.Faction} => Health Points: {this.HealthPoints} || Speed: {this.Speed} || Ammo: {this.Ammo}";
         }
 
 

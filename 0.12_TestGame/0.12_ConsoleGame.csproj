@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +46,7 @@
     <Compile Include="CharacterTypes.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="Paladin.cs" />
+    <Compile Include="RabidWolf.cs" />
     <Compile Include="Ranger.cs" />
     <Compile Include="Mage.cs" />
     <Compile Include="Ninja.cs" />

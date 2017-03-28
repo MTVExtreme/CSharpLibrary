@@ -12,13 +12,16 @@ namespace _0._12_TestGame
 
         public Mage(string name, string faction) : base(name, faction)
         {
-            //this.Name = name;
-            //this.Faction = faction;
-            //this.Level = 1;
             this.Mana = 30;
             this.HealthPoints = 80;
             this.Speed = 6;
+            this.Type = CharacterType.Mage;
 
+        }
+
+        public override string ToString()
+        {
+            return $"The {this.Type} {this.Name} of {this.Faction} => Health Points: {this.HealthPoints} || Speed: {this.Speed} || Mana: {this.Mana}";
         }
     }
 }
