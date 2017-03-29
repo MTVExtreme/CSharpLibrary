@@ -12,10 +12,10 @@ namespace _0._12_TestGame
         static void Main(string[] args)
         {
 
-            bool twoPlayer = WelcomeScreen();
+            bool gameType = WelcomeScreen();
 
             PlayerClass player1 = Startup();
-            if (twoPlayer == true)
+            if (gameType == true)
             { 
                 PlayerClass player2 = Startup();
             }
@@ -74,25 +74,44 @@ namespace _0._12_TestGame
             return player1;
         }
 
-        private static bool WelcomeScreen()
+        private static int WelcomeScreen()
         {
             bool playerCheck;
             SpeechSynthesizer talkingConsole = new SpeechSynthesizer();
             talkingConsole.Speak("Welcome to derf");
             Console.WriteLine("Welcome to DURF (Deadly Underground Reference Fighting)");
-            Console.Write("Would you like 1 or 2 player? If you want 2 players type Y >");
-            string input = Console.ReadLine();
-            
-                if (input.Equals("Y", StringComparison.InvariantCultureIgnoreCase))
-            {
-                playerCheck = true;
-                return playerCheck;
-            }
-            else
-            {
-                playerCheck = false;
-                return playerCheck;
-            }
+            string durfFlash = @"
+                                                                                    
+DDDDDDDDDDDDD        UUUUUUUU     UUUUUUUURRRRRRRRRRRRRRRRR   FFFFFFFFFFFFFFFFFFFFFF
+D::::::::::::DDD     U::::::U     U::::::UR::::::::::::::::R  F::::::::::::::::::::F
+D:::::::::::::::DD   U::::::U     U::::::UR::::::RRRRRR:::::R F::::::::::::::::::::F
+DDD:::::DDDDD:::::D  UU:::::U     U:::::UURR:::::R     R:::::RFF::::::FFFFFFFFF::::F
+  D:::::D    D:::::D  U:::::U     U:::::U   R::::R     R:::::R  F:::::F       FFFFFF
+  D:::::D     D:::::D U:::::D     D:::::U   R::::R     R:::::R  F:::::F             
+  D:::::D     D:::::D U:::::D     D:::::U   R::::RRRRRR:::::R   F::::::FFFFFFFFFF   
+  D:::::D     D:::::D U:::::D     D:::::U   R:::::::::::::RR    F:::::::::::::::F   
+  D:::::D     D:::::D U:::::D     D:::::U   R::::RRRRRR:::::R   F:::::::::::::::F   
+  D:::::D     D:::::D U:::::D     D:::::U   R::::R     R:::::R  F::::::FFFFFFFFFF   
+  D:::::D     D:::::D U:::::D     D:::::U   R::::R     R:::::R  F:::::F             
+  D:::::D    D:::::D  U::::::U   U::::::U   R::::R     R:::::R  F:::::F             
+DDD:::::DDDDD:::::D   U:::::::UUU:::::::U RR:::::R     R:::::RFF:::::::FF           
+D:::::::::::::::DD     UU:::::::::::::UU  R::::::R     R:::::RF::::::::FF           
+D::::::::::::DDD         UU:::::::::UU    R::::::R     R:::::RF::::::::FF           
+DDDDDDDDDDDDD              UUUUUUUUU      RRRRRRRR     RRRRRRRFFFFFFFFFFF           ";
+
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine(durfFlash);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\n|--Menu--|");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("0: 3-Person Party (1 Player)"); Console.ForegroundColor = ConsoleColor.Red; Console.Write("NOT IMPLEMENTED\n"); Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("1: 3-Person Party (2 Players)"); Console.ForegroundColor = ConsoleColor.Red; Console.Write("NOT IMPLEMENTED\n"); Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("2: 3-Person Party (3 Players)"); Console.ForegroundColor = ConsoleColor.Red; Console.Write("NOT IMPLEMENTED\n"); Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("3: 1-Person Party (1 Player)");  
+            Console.WriteLine("4: 2-Person Party (2 Players)"); 
+            int input = Int32.Parse(Console.ReadLine());
+
+            return input;
                
         }
     }
