@@ -8,19 +8,32 @@ using System.Threading.Tasks;
 namespace _0._12_TestGame
 {
     class Program
-    {
-       
+    {  
         static void Main(string[] args)
-        { 
+        {
 
+            bool twoPlayer = WelcomeScreen();
+
+            PlayerClass player1 = Startup();
+            if (twoPlayer == true)
+            { 
+                PlayerClass player2 = Startup();
+            }
+
+            Console.ReadLine();
+
+            RabidWolf Wolf = new RabidWolf();
+            Wolf.Insult();
+            Wolf.WolfAttack(player1);
+            Console.ReadLine();
+
+        }
+
+        private static PlayerClass Startup()
+        {
             PlayerClass player1;
 
-            SpeechSynthesizer talkingConsole = new SpeechSynthesizer();
-            talkingConsole.Speak("Welcome to DURF");
-
-
-            Console.WriteLine("Welcome to DURF (Deadly Underground Reference Fighting)");
-            Console.WriteLine("What will the name of your Adventurer be?");
+            Console.WriteLine("\nWhat will the name of your Adventurer be?");
             string name = Console.ReadLine();
             Console.WriteLine("What clan of faction are is your adventurer a part of?");
             string faction = Console.ReadLine();
@@ -31,7 +44,7 @@ namespace _0._12_TestGame
                 "3: Ranger");
             int playerType = int.Parse(Console.ReadLine());
 
-        
+
             if (playerType == 0)
             {
                 player1 = new Ninja(name, faction);
@@ -58,14 +71,29 @@ namespace _0._12_TestGame
 
 
             Console.WriteLine(player1.ToString());
+            return player1;
+        }
 
-            RabidWolf Wolf = new RabidWolf();
-            Wolf.Insult();
-            Wolf.WolfAttack(player1);
-            Console.ReadLine();      
-
-    }
-        
-        
+        private static bool WelcomeScreen()
+        {
+            bool playerCheck;
+            SpeechSynthesizer talkingConsole = new SpeechSynthesizer();
+            talkingConsole.Speak("Welcome to derf");
+            Console.WriteLine("Welcome to DURF (Deadly Underground Reference Fighting)");
+            Console.Write("Would you like 1 or 2 player? If you want 2 players type Y >");
+            string input = Console.ReadLine();
+            
+                if (input.Equals("Y", StringComparison.InvariantCultureIgnoreCase))
+            {
+                playerCheck = true;
+                return playerCheck;
+            }
+            else
+            {
+                playerCheck = false;
+                return playerCheck;
+            }
+               
+        }
     }
 }
