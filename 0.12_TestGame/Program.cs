@@ -12,10 +12,10 @@ namespace _0._12_TestGame
         static void Main(string[] args)
         {
 
-            bool gameType = WelcomeScreen();
+            int gameType = WelcomeScreen();
 
             PlayerClass player1 = Startup();
-            if (gameType == true)
+            if (gameType == 4)
             { 
                 PlayerClass player2 = Startup();
             }
