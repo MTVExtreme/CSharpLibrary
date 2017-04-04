@@ -10,6 +10,13 @@ namespace _0._12_TestGame
     {
         public int Ammo { get; set; }
 
+        Dictionary<string, int> specialAttacks = new Dictionary<string, int>
+            {
+                {"Quick Shot", 12},
+                {"Flaming Spiral", 24},
+                {"Arrow Storm", 36},
+            };
+
         public Ranger(string name, string faction) : base(name, faction)
         {
             //this.Name = name;
@@ -19,6 +26,7 @@ namespace _0._12_TestGame
             this.HealthPoints = 100;
             this.Speed = 13;
             this.Type = CharacterType.Ranger;
+            this.SpecialAttacks = specialAttacks;
 
         }
 

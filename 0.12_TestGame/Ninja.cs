@@ -10,13 +10,20 @@ namespace _0._12_TestGame
     {
         public int Stamina { get; set; }
 
+        Dictionary<string, int> specialAttacks = new Dictionary<string, int>
+            {
+                {"Slient Slash", 15},
+                {"Throwing Star", 36},
+                {"Death from Above", 75},
+            };
+
         public Ninja(string name, string faction) : base(name, faction)
         {
             this.Stamina = 25;
             this.HealthPoints = 85;
             this.Speed = 16;
             this.Type = CharacterType.Ninja;
-
+            this.SpecialAttacks = specialAttacks;
         }
 
         public override string ToString()

@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.16_LINQ", "0.16_LINQ\0.16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.07_Constructors_Base", "0.07_Constructors_Base\0.07_Constructors_Base.csproj", "{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.17_ClassChallenge_Abstract_Concrete_Interface", "0.17_ClassChallenge_Abstract_Concrete,Interface\0.17_ClassChallenge_Abstract_Concrete_Interface.csproj", "{86137C6F-29EB-4E51-BD52-A185E8D633A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86137C6F-29EB-4E51-BD52-A185E8D633A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86137C6F-29EB-4E51-BD52-A185E8D633A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86137C6F-29EB-4E51-BD52-A185E8D633A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86137C6F-29EB-4E51-BD52-A185E8D633A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

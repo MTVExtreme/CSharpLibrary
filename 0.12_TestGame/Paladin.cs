@@ -10,6 +10,13 @@ namespace _0._12_TestGame
     {
         public int Stamina { get; set; }
 
+        Dictionary<string, int> specialAttacks = new Dictionary<string, int>
+            {
+                {"Shield Clash", 12},
+                {"Massive Blow", 20},
+                {"Hero's Slash", 30},
+            };
+
         public Paladin(string name, string faction) : base(name, faction)
         {
             //this.Name = name;
@@ -19,6 +26,7 @@ namespace _0._12_TestGame
             this.HealthPoints = 160;
             this.Speed = 9;
             this.Type = CharacterType.Paladin;
+            this.SpecialAttacks = specialAttacks;
         }
 
         public override string ToString()

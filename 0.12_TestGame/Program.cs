@@ -11,16 +11,44 @@ namespace _0._12_TestGame
     {  
         static void Main(string[] args)
         {
+            PlayerClass player1;
+            PlayerClass player2;
+            PlayerClass player3;
 
             int gameType = WelcomeScreen();
 
-            PlayerClass player1 = Startup();
-            if (gameType == 4)
-            { 
-                PlayerClass player2 = Startup();
+            switch (gameType)
+            {
+                case 1:
+                    throw new NotImplementedException();
+                case 2:
+                    throw new NotImplementedException();
+                case 3:
+
+                    player1 = Startup();
+                    player2 = Startup();
+
+                    break;
+                case 4:
+                    { 
+                    player1 = Startup();
+                    player2 = Startup();
+                    break;
+                    }
+                default:
+                    {
+                        player1 = Startup();
+                        player2 = Startup();
+                        break;
+                    }
             }
 
             Console.ReadLine();
+            player1.ReadAttacks();
+            player1.ReadSpecialAttacks();
+            Console.ReadLine();
+            player2.ReadAttacks();
+            player2.ReadSpecialAttacks();
 
             RabidWolf Wolf = new RabidWolf();
             Wolf.Insult();
@@ -28,6 +56,7 @@ namespace _0._12_TestGame
             Console.ReadLine();
 
         }
+
 
         private static PlayerClass Startup()
         {
@@ -63,7 +92,7 @@ namespace _0._12_TestGame
             }
             else
             {
-                player1 = new PlayerClass(name, faction);
+                player1 = new Human(name, faction);
             }
 
             //PlayerClass player = new PlayerClass(name, faction);

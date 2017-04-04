@@ -1,0 +1,6 @@
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.17_ClassChallenge_Abstract_Concrete,Interface\bin\Debug\0.17_ClassChallenge_Abstract_Concrete,Interface.exe.config
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.17_ClassChallenge_Abstract_Concrete,Interface\bin\Debug\0.17_ClassChallenge_Abstract_Concrete,Interface.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.17_ClassChallenge_Abstract_Concrete,Interface\bin\Debug\0.17_ClassChallenge_Abstract_Concrete,Interface.pdb
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.17_ClassChallenge_Abstract_Concrete,Interface\obj\Debug\0.17_ClassChallenge_Abstract_Concrete_Interface.csprojResolveAssemblyReference.cache
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.17_ClassChallenge_Abstract_Concrete,Interface\obj\Debug\0.17_ClassChallenge_Abstract_Concrete,Interface.exe
+C:\Users\mtv19\Documents\Visual Studio 2017\Projects\CSharpLibary\0.17_ClassChallenge_Abstract_Concrete,Interface\obj\Debug\0.17_ClassChallenge_Abstract_Concrete,Interface.pdb

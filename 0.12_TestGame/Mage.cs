@@ -10,12 +10,20 @@ namespace _0._12_TestGame
     {
         public int Mana { get; set; }
 
+        Dictionary<string, int> specialAttacks = new Dictionary<string, int>
+            {
+                {"Firebolt", 15},
+                {"Mystic Sword Slash", 34},
+                {"Thunderstorm", 50},
+            };
+
         public Mage(string name, string faction) : base(name, faction)
         {
             this.Mana = 30;
             this.HealthPoints = 80;
             this.Speed = 6;
             this.Type = CharacterType.Mage;
+            this.SpecialAttacks = specialAttacks;
 
         }
 
