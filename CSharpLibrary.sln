@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.15_Lists", "0.15_Lists\0.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.16_LINQ", "0.16_LINQ\0.16_LINQ.csproj", "{841CC77A-70D3-47A2-A01A-2EE260A04E6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.07_Constructors_Base", "0.07_Constructors_Base\0.07_Constructors_Base.csproj", "{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{841CC77A-70D3-47A2-A01A-2EE260A04E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{841CC77A-70D3-47A2-A01A-2EE260A04E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{841CC77A-70D3-47A2-A01A-2EE260A04E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D72E975-7BE8-4CDA-BEE5-7DCE39F954BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
